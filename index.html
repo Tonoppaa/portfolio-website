@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Tonoppa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./scripts.js"></script>
+    <link rel="icon" type="image/jpg" href="./images/nova.jpg"> <!--Lisää kuvan / ikonin Välilehteen-->
+</head>
+<body>
+    <header>
+        <a href="#" class="logo-holder">
+            <div class="logo">L</div>
+            <div class="logo-text">Portfolio Sivusto</div>
+        </a>
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a href="#">Etusivu</a>
+                </li>
+                <li>
+                    <a href="#skills">Taidot</a>
+                </li>
+                <li>
+                    <a href="#projects">Projektit</a>
+                </li>
+                <li>
+                    <a href="mailto:tommi.kalliopuska@gmail.com" class="button">Ota Yhteyttä</a>
+                </li>
+            </ul>
+            <a href="#" class="mobile-toggle"
+            onclick="toggleMobileMenu();"> <!--Hampurilaismenu mobiiliin-->
+                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h14"/>
+                </svg>
+            </a>
+        </nav>
+    </header>
+    <main>
+    <section class="dude container">
+        <div class="dude-blue">
+                <h1><small>Morjestapäivää, olen</small>
+                    Tonoppa
+                </h1>
+                <p>Juuri valmistunut ohjelmistokehittäjä (toukokuu 2025),
+                    joka haluaa rakentaa pitkän uran IT-alalla. Minua erityisesti
+                    kiinnostaa Full stack developer-tehtävät. Osaamiseeni kuuluu mm.
+                    C#, MySQL, PowerShell, HTML, CSS, JavaScript, Git & GitHub. <span>Osaan
+                    myös käyttää monipuolisesti tekoälyä (ChatGPT & CoPilot).</span>
+                </p>
+                <div class="call-to-action">
+                    <a href="./CV Tommi Kalliopuska 2025.pdf" class="button black">
+                        Tarkastele CV:tä
+                    </a>
+                    <a href="mailto:tommi.kalliopuska@gmail.com" class="button white">
+                        Ota Yhteyttä
+                    </a>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/tommi-kalliopuska">
+                        <img src="./images/linkedin.png" alt="LinkedIn" width="48px">
+                    </a>
+                    <a href="https://github.com/Tonoppaa">
+                        <img src="./images/github.png" alt="GitHub" width="48px">
+                    </a>
+                </div>
+            </div>
+        <div class="dude-yellow">
+            <img src="./images/nova-nobg.png" alt="Nova" width="100%">
+        </div>
+    </section>
+    <section class="logos container">
+        <div class="marquee">
+            <div class="track">
+                <img src="./images/html.png" alt="HTML" width="124" />
+                <img src="./images/css.png" alt="CSS" width="124" />
+                <img src="./images/javascript.png" alt="JavaScript" width="124" />
+                <img src="./images/vscode.png" alt="VSC" width="124" />
+                <img src="./images/Ceesharp.png" alt="CSharp" width="124" />
+                <img src="./images/oraclevirtualbox.png" alt="OracleVirtualbox" width="124" />
+                <img src="./images/visualstudio1.png" alt="VisualStudio" width="124" />
+                <img src="./images/mysql1.png" alt="MySQL" width="124" />
+                <img src="./images/git.png" alt="Git" width="124" />
+                <img src="./images/github1.png" alt="GitHub" width="124" />
+                <img src="./images/unity.png" alt="Unity" width="124" />
+                <img src="./images/powershell.png" alt="PowerShell" width="124" />
+                <img src="./images/html.png" alt="HTML" width="124" />
+                <img src="./images/css.png" alt="CSS" width="124" />
+                <img src="./images/javascript.png" alt="JavaScript" width="124" />
+                <img src="./images/vscode.png" alt="VSC" width="124" />
+                <img src="./images/Ceesharp.png" alt="CSharp" width="124" />
+                <img src="./images/oraclevirtualbox.png" alt="OracleVirtualbox" width="124" />
+                <img src="./images/visualstudio1.png" alt="VisualStudio" width="124" />
+                <img src="./images/mysql1.png" alt="MySQL" width="124" />
+                <img src="./images/git.png" alt="Git" width="124" />
+                <img src="./images/github1.png" alt="GitHub" width="124" />
+                <img src="./images/unity.png" alt="Unity" width="124" />
+                <img src="./images/powershell.png" alt="PowerShell" width="124" />
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="skills container">
+        <h2>
+            <small>Tietoa meikäläisestä</small>
+            Taidot
+        </h2>
+        <div class="holder-blue">
+            <div class="left-column">
+                <h3>Frontend</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+                <h3>Backend</h3>
+                <ul>
+                    <li>C#</li>
+                    <li>MySQL</li>
+                </ul>
+                <h3>Muuta</h3>
+                <ul>
+                    <li>Visual Studio</li>
+                    <li>VSC (Visual Studio Code)</li>
+                    <li>Unity</li>
+                    <li>Oracle VirtualBox</li>
+                    <li>Git</li>
+                    <li>GitHub</li>
+                    <li>PowerShell</li>
+                </ul>
+            </div>
+            <div class="right-column">
+                <h3>Tässä hieman tietoa meikäläisestä</h3>
+                <p>Terveppä terve. Oon Tonoppa.</p>
+            </div>
+        </div>
+    </section>
+    <section class="work-experience container">
+        <h2>
+            <small>Viimeaikainen</small>
+            Työkokemus
+        </h2>
+        <div class="jobs">
+            <article>
+                <figure>
+                    <div>
+                        <img src="./images/software-developer.png" alt="Ohjelmistokehittäjä" width="100%"/>
+                        <figcaption>
+                            Ohjelmistokehittäjä
+                        </figcaption>
+                    </div>
+                </figure>
+                <h3>Ohjelmistokehittäjä</h3>
+                <div>2023-2025</div>
+                <p>Opiskelin Vaasan Vamiassa ohjelmistokehittäjäksi ja valmistuin toukokuussa 2025. Koulutus tapahtui kokonaan etäopetuksena.
+                    Opintojen laajuus oli 180 opintopistettä.
+                </p>
+            </article>
+                        <article>
+                <figure>
+                    <div>
+                        <img src="./images/logistics-worker.png" alt="Logistiikkatyöntekijä" width="100%"/>
+                        <figcaption>
+                            Logistiikkatyöntekijä
+                        </figcaption>
+                    </div>
+                </figure>
+                <h3>Logistiikkatyöntekijä</h3>
+                <div>2018-2024</div>
+                <p>Toimin logistiikkatyöntekijänä PP-Logistiikka Oy:ssä kuusi vuotta. Työ sisälsi hyvin erilaisia
+                    työnkuvia, mutta projektilogistiikka-termi kiteyttää hyvin, millaista työtä tein.
+                </p>
+            </article>
+                        <article>
+                <figure>
+                    <div>
+                        <img src="./images/driver-teacher.png" alt="Liikenneopettaja" width="100%"/>
+                        <figcaption>
+                            Liikenneopettaja
+                        </figcaption>
+                    </div>
+                </figure>
+                <h3>Liikenneopettaja</h3>
+                <div>2013-2018</div>
+                <p>Olin liikenneopettajana Forssan Autokoulu Oy:ssä viisi vuotta. Suoritin asiakkaille (oppilaille)
+                    ajokorttikoulutusta, jotka sisälsivät AM120-, AM121-, A- ja B-luokan ajokorttiluokat.
+                </p>
+            </article>
+        </div>
+    </section>
+    <section id="projects" class="bento container">
+        <h2>
+            <small>
+                Edelliset
+            </small>
+            Valmistuneet Projektit
+        </h2>
+        <div class="bento-grid">
+            <a href="#" class="bento-item">
+                <img src="./images/bento-1.jpg" alt="Bento 1" width="100%"/>
+            </a>
+            <a href="#" class="bento-item">
+                <img src="./images/bento-2.jpg" alt="Bento 2" width="100%"/>
+            </a>
+            <a href="#" class="bento-item">
+                <img src="./images/bento-3.jpg" alt="Bento 3" width="100%"/>
+            </a>
+            <a href="#" class="bento-item">
+                <img src="./images/bento-4.jpg" alt="Bento 4" width="100%"/>
+            </a>
+            <a href="#" class="bento-item">
+                <img src="./images/bento-5.jpg" alt="Bento 5" width="100%"/>
+            </a>
+            <a href="#" class="bento-item">
+                <img src="./images/bento-6.jpg" alt="Bento 6" width="100%"/>
+            </a>
+        </div>
+    </section>
+    <section class="chatbot container">
+        <h2>
+            <small>
+                Puhu minulle
+            </small>
+            ChatBOT!
+        </h2>
+        <div class="chatbot-blue">
+            <div class="chatbot-info">
+                <h3>Azure AI Chatbot</h3>
+                <p>Tein Chatbotin, joka tuntee kaikki taitoni ja työkokemukseni. Botilta
+                    löytyy myös CV. Halutessasi voit esittää kysymyksiä chatbotille, jonka avulla saat
+                    paremman käsityksen kuka olen ja mitä olen tehnyt.
+                </p>
+                <p>Voit ladata CV:n täältä, jos haluat tarkastella sitä tarkemmin. Etsin tällä hetkellä
+                    mahdollisuuksia hyödyntää ohjelmointitaitojani projekteissa, joten ota yhteyttä, jos
+                    Sinulla on tarjota mahdollisuus!
+                </p>
+                <a href="./CV Tommi Kalliopuska 2025.pdf" class="button black">Lataa ansioluettelo</a>
+            </div>
+            <div class="chat-box">
+                <div class="scroll-area">
+                    <ul id="chat-log">
+                        <li>
+                            <span class="avatar bot">AI</span>
+                            <div class="message">Morjestapäivää! Olen Tonopan chatbot, jonka avlla voit
+                                tutustua Tonoppaan, hänen portfolioon ja CV:n paremmin! Miten voin olla avuksi?
+                            </div>
+                        </li>
+                        <li>
+                            <span class="avatar user">User</span>
+                            <div class="message">Minulla on kysymys CV:n liittyen.
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="chat-message">
+                    <input type="text" placeholder="Moro Tonoppa, mitkä ovat vahvuutesi?">
+                    <button class="button black">Lähetä</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+</body>
+</html>
